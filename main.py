@@ -132,7 +132,7 @@ for x in rangeMovies:
 
 #flagEmpty = True
 if not flagEmpty:
-    print("movie that is recommended to watch is",recommendedMovie)
+    print("movie that is recommended to watch",recommendedMovie)
 else:
     print("may be it is better to watch something from your mates' choice: movie is",rnd.choice(additionalMovies) )
 for x in rangeMovies:
