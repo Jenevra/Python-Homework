@@ -55,7 +55,7 @@ context = pd.read_csv("context.csv", sep=",", skiprows=[0], header=None)
 
 usersAverage = average_func()
 
-# calculate sim for each user
+# calculate sim for only my user
 # user 1 : {user 1: .., user 2:.., user 3:.. ...}
 metric = {}
 for jy in range(square):
